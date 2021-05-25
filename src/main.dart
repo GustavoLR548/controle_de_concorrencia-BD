@@ -10,7 +10,8 @@ void main() {
   var sa =
       'r3(y), r2(z), r1(x), r2(x), r3(z), r2(y), w3(y), r1(y), w2(z), w1(x), r3(x), r1(z)';
 
-  bool resultado1 = ehRecuperavel(ts, sa);
+  print('Sa = ' + sa + '\n\n');
 
-  print('Sa ' + (resultado1 ? 'eh escalonado!' : 'não é escalonado!'));
+  ehEscalonada(ts, sa);
+  ehRecuperavel(ts, sa);
 }

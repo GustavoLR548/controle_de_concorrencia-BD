@@ -37,5 +37,7 @@ bool ehEscalonada(List<String> ts, String s) {
 
   if (conflitoCounter < 2) result = false;
 
+  print('Sa ' + (result ? 'eh escalonado!' : 'não é escalonado!'));
+
   return result;
 }
