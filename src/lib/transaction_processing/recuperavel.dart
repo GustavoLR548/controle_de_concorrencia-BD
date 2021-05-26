@@ -1,4 +1,4 @@
-import 'misc.dart';
+import '../misc.dart';
 
 List<List<String>> ehRecuperavel(List<String> ts, String s) {
   List<List<String>> result = [];

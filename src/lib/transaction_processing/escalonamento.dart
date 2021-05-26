@@ -1,4 +1,4 @@
-import 'misc.dart';
+import '../misc.dart';
 
 const letters = const ['x', 'y', 'z'];
 
